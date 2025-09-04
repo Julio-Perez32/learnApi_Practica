@@ -96,6 +96,11 @@ public class CategoriesController {
         }
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     */
     // Mapea este metodo a una petición DELETE con un parámetro de ruta {id}
     @DeleteMapping("/deleteCategory/{id}")
     public ResponseEntity<Map<String, Object>> eliminarUsuario(@PathVariable Long id) {
